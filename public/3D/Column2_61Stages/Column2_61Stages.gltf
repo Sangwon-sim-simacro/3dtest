@@ -1,0 +1,351 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 2928,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 698,
+      "max": [
+        5.28555297851562,
+        5.28753471374512,
+        32.3805046081543
+      ],
+      "min": [
+        -5.28408813476562,
+        -5.28747940063477,
+        -32.0005569458008
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 698,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 698,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 698,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 234360,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 88784,
+      "max": [
+        4.09069061279297,
+        3.97997093200684,
+        30.3276786804199
+      ],
+      "min": [
+        -3.85494995117188,
+        -3.9819278717041,
+        -40.9121246337891
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 88784,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 88784,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 88784,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Adobe Substance 3D Painter 8.2.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 11712,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8376,
+      "byteOffset": 11712,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8376,
+      "byteOffset": 20088,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 11168,
+      "byteOffset": 28464,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5584,
+      "byteOffset": 39632,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 937440,
+      "byteOffset": 45216,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1065408,
+      "byteOffset": 982656,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1065408,
+      "byteOffset": 2048064,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1420544,
+      "byteOffset": 3113472,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 710272,
+      "byteOffset": 4534016,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 5244288,
+      "uri": "Column2_61Stages.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "Simacro_Parts_baseColor.png"
+    },
+    {
+      "uri": "Simacro_Parts_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "Simacro_Parts_normal.png"
+    },
+    {
+      "uri": "Simacro_Shells_baseColor.png"
+    },
+    {
+      "uri": "Simacro_Shells_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "Simacro_Shells_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "Simacro_Parts",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "alphaMode": "OPAQUE",
+      "name": "Simacro_Shells",
+      "normalTexture": {
+        "index": 5
+      },
+      "occlusionTexture": {
+        "index": 4
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "02_Shell",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TANGENT": 3,
+            "TEXCOORD_0": 4
+          },
+          "indices": 0,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "02_Parts",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 7,
+            "POSITION": 6,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "02_Shell",
+      "rotation": [
+        -0.70710676908493,
+        0.0,
+        0.0,
+        0.70710676908493
+      ],
+      "scale": [
+        0.752474009990692,
+        0.752474009990692,
+        0.752474009990692
+      ],
+      "translation": [
+        23.1664752960205,
+        24.07958984375,
+        -0.143211022019386
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "02_Shell"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "02_Parts",
+      "rotation": [
+        -0.70710676908493,
+        0.0,
+        0.0,
+        0.70710676908493
+      ],
+      "scale": [
+        0.752474009990692,
+        0.752474009990692,
+        0.611856997013092
+      ],
+      "translation": [
+        23.1664752960205,
+        27.7808856964111,
+        -0.143210649490356
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "02_Parts"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    }
+  ]
+}
